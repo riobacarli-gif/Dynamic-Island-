@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  inset: 0;
+  background-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+@keyframes fast-wave {
+  0% { height: 4px; }
+  25% { height: 18px; }
+  50% { height: 8px; }
+  75% { height: 22px; }
+  100% { height: 4px; }
+}
+.animate-fast-wave {
+  animation: fast-wave 0.625s ease-in-out infinite;
+}

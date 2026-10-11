@@ -1,0 +1,6 @@
+{
+  "name": "iPhone 11 Dynamic Notch",
+  "description": "A minimalist iPhone 11 dynamic notch interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
